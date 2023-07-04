@@ -1,1 +1,2 @@
-Tjos 
+This repository consist of codes of a webpage which is created to generate a password. The user has the option to 
+choose weather characters, symbols, Numbers should be there in the password or not. The user can also select the Length of the password and after selection of all these choices the password is generated and measured as strong or weak. 
