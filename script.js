@@ -22,7 +22,6 @@ handleSlider();
 //set strength circle color to grey
 setIndicator("#ccc");
 
-
 //set passwordLength
 function handleSlider() {
     inputSlider.value = passwordLength;

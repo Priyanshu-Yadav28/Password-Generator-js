@@ -32,7 +32,9 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background-image: linear-gradient(to right top, #ddb5cc, #cea7c8, #bb9bc5, #a490c3, #8986c0, #7387c2, #5a88c1, #3d89bd, #3092b9, #349ab2, #46a0aa, #5ba6a2);
     overflow-x: hidden;
 }
 
@@ -53,7 +55,8 @@ h1 {
 
 .display-container {
     position: relative;
-    background-color: var(--dk-violet);
+    /* background-color: var(--dk-violet); */
+    background-image: linear-gradient(to right bottom, #cdabd2, #bda4ce, #ad9ec9, #9c97c3, #8b91bd, #8097c1, #769cc2, #6ea1c2, #71b2c8, #7dc3cb, #91d2cc, #abe0cc);
     border-radius: 1rem;
     border-bottom: 0.35rem solid var(--lt-violet2);
     margin: 1rem 0;
@@ -65,7 +68,7 @@ h1 {
 
 .display {
     width: 100%;
-    background-color: transparent;
+    background-color: transparent;    
     outline: none;
     border: none;
     padding: 1.5rem 1rem;
@@ -101,7 +104,8 @@ h1 {
 
 .input-container {
     width: 100%;
-    background-color: var(--dk-violet);
+    /* background-color: var(--dk-violet); */
+    background-image: linear-gradient(to left top, #cdabd2, #bda4ce, #ad9ec9, #9c97c3, #8b91bd, #8097c1, #769cc2, #6ea1c2, #71b2c8, #7dc3cb, #91d2cc, #abe0cc);
     border-radius: 1rem;
     padding: 2rem;
     border-bottom: 0.35rem solid var(--lt-violet2);
@@ -176,7 +180,8 @@ h1 {
     appearance: none;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--vb-cyan);
+    /* border: 1px solid var(--vb-cyan); */
+    border: 1px solid rgb(40, 17, 116);
     cursor: pointer;
     position: relative;
     border-radius: 0.35rem;
@@ -244,6 +249,7 @@ h1 {
 .slider::-webkit-slider-thumb:hover {
     outline: 2px solid var(--vb-yellow);
     background-color: var(--dk-violet);
+    /* background-color: #D68BB6; */
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.59);
 }
 
